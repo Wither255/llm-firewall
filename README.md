@@ -17,7 +17,7 @@ ollama run llama3.2
 ### 2. Run firewall server
 Run main to spin up firewall locally on 127.0.0.1:8000, can open API documentation page in a browser at http://127.0.0.1:8000/docs
 ```bash
-python main.py
+fastapi dev main.py
 ```
 
 # For firewall WebUI;
