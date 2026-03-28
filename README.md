@@ -1,13 +1,14 @@
 # Setup & Usage
 
 ### Prerequisite
+Install Ollama at Ollama.com
 Install requirements
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 1. Setup local LLM for contextual risk scoring
-Use Ollama with light model llama3.2 as the LLM Judge. Install from Ollama.com (or use included installer), then run:
+Use Ollama with light model llama3.2 as the LLM Judge, then run:
 ```bash
 ollama run llama3.2
 ```
