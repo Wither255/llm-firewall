@@ -2,6 +2,7 @@
 
 ### Prerequisite
 Install Ollama at Ollama.com
+
 Install requirements
 ```bash
 pip install -r requirements.txt
