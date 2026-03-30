@@ -5,10 +5,10 @@ from transformers import pipeline
 print("Loading ML Pipeline...")
 
 try:
-    # Initialize the pipeline globally so it only loads into memory once
+    # Initialize pipeline globally so it only loads into memory once
     classifier = pipeline(
         "text-classification",
-        model="ProtectAI/deberta-v3-base-prompt-injection",
+        model="ProtectAI/deberta-v3-base-prompt-injection-v2",
         device=-1 # Set to 0 if you have a dedicated GPU configured with PyTorch
     )
 except Exception as e:
