@@ -45,4 +45,6 @@ API_URL = "http://127.0.0.1:8000/scan"
 
 LOGS_URL = "http://127.0.0.1:8000/logs"
 
+### DISCLAIMER
 
+This is a project and proof of concept, it has failed to prevent some prompt injections in trials (57% of malicious prompts in one test). USE AT OWN RISK 
